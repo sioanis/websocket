@@ -1,0 +1,22 @@
+body{ margin: 20px; }
+#chart { margin-top: 50px; }
+#footer { margin-top: 50px; font-size: .8em; }
+
+.chart { font-family: arial,sans-serif; font-size: .8em; }
+
+.axisLabel { font-size: 1.2em; font-weight: bold; fill: #545454; }
+
+path.domain { fill: none; stroke: #666; stroke-width: 1; }
+
+line { stroke: #ccc; stroke-width: .5; stroke-linecap: "square" }
+
+.transaction circle, .block circle, .trade circle { fill: #fff; fill-opacity: 1; stroke-width:2px; }
+.transaction circle { stroke: #afd8fb; }
+.block circle { stroke: #edc300; }
+.trade circle { stroke: #cb4c48; }
+
+/*	boostrap overrides	*/
+.popover { font-size: .7em; max-width: 500px; }
+.popover .header { font-size: 1.1em; margin-bottom: 10px; line-height: 1.3em; }
+#slider { display: inline-block; }
+#slider-value { margin-left: 50px; font-size: .9em; }
